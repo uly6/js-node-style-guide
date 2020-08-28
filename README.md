@@ -12,23 +12,13 @@ code --install-extension Orta.vscode-jest
 yarn init -y
 ```
 
-## INSTALL
-
-### nodemon + sucrase
+## SETUP
 
 ```
 yarn add -D sucrase nodemon
-```
 
-### jest
-
-```
 yarn add -D jest @sucrase/jest-plugin @types/jest\
-```
 
-### eslint + prettier
-
-```
 yarn add -D eslint \
             eslint-plugin-import \
             eslint-plugin-node \
@@ -38,8 +28,12 @@ yarn add -D eslint \
             eslint-plugin-prettier \
             eslint-plugin-jest-formatting \
             eslint-config-airbnb-base
+
+yarn add -D husky lint-staged
 ```
 
 ## REFERENCES
 
 https://medium.com/better-programming/bootstrap-a-vs-code-and-node-js-development-environment-6e817d6c0a87
+
+https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project
