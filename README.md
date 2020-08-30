@@ -17,7 +17,7 @@ yarn init -y
 ```
 yarn add -D sucrase nodemon
 
-yarn add -D jest @sucrase/jest-plugin @types/jest\
+yarn add -D jest @sucrase/jest-plugin @types/jest
 
 yarn add -D eslint \
             eslint-plugin-import \
@@ -29,7 +29,7 @@ yarn add -D eslint \
             eslint-plugin-jest-formatting \
             eslint-config-airbnb-base
 
-yarn add -D husky lint-staged
+yarn add -D rimraf husky lint-staged
 ```
 
 ## REFERENCES
@@ -37,3 +37,5 @@ yarn add -D husky lint-staged
 https://medium.com/better-programming/bootstrap-a-vs-code-and-node-js-development-environment-6e817d6c0a87
 
 https://www.robertcooper.me/using-eslint-and-prettier-in-a-typescript-project
+
+https://khalilstemmler.com/blogs/typescript/node-starter-project/

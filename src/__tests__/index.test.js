@@ -1,4 +1,4 @@
-import { sum, sub } from './index';
+import { sum, sub } from '../index';
 
 describe('sum', () => {
   it('sum a and b', () => {
